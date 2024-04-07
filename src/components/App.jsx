@@ -37,7 +37,7 @@ class App extends Component {
     return total;
   };
   countPositiveFeedbackPercentage = () => {
-    const { good, neutral, bad } = this.state;
+    const { good } = this.state;
     const total = this.countTotalFeedback();
     let positiveFeedbackPercentage = 0;
 
