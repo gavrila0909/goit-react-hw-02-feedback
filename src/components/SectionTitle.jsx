@@ -13,6 +13,6 @@ function SectionTitle({ title, children }) {
 
 SectionTitle.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 export default SectionTitle;

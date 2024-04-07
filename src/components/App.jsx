@@ -58,7 +58,7 @@ class App extends Component {
             onLeaveFeedback={this.handleFeedback} //fac referinta catre functie
           ></FeedbackOptions>
 
-          <SectionTitle title="Statistics" />
+          <SectionTitle title="Statistics" children=''/>
           {!this.state.feedbackCollected && (
             <Notification message="There is no feedback" />
           )}
